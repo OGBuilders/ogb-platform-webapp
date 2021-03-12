@@ -1,0 +1,87 @@
+.register {
+  margin-top: 10px;
+}
+.register-heading {
+  height: 48px;
+  top: 60px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #0d0d0d;
+}
+
+.a-link {
+  color: #0000ee;
+}
+
+.a-link:hover {
+  color: #0000ee;
+}
+
+.register-heading-secondary {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(13, 13, 13, 0.5);
+  margin-bottom: 30px;
+}
+
+.label {
+  font-weight: 580;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  color: #4f4f4f;
+}
+
+.input {
+  background: #ececec;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.whiteinput {
+  background: white;
+  width: 80%;
+}
+
+.checkbox {
+  font-weight: 580;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  color: #4f4f4f;
+}
+
+.button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background: var(--primary-color-green-2);
+  border-radius: 50px;
+  width: 264px;
+  height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.button[disabled] {
+  background: var(--primary-color-green-2);
+}
+
+.button:hover {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .input {
+    width: 80%;
+  }
+  .register-heading {
+    font-size: 22px;
+  }
+  .label {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,46 @@
+.register-component {
+  margin-left: 25%;
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.register-illustration-column {
+  background-color: var(--primary-color-dark-green);
+  color: white;
+  border-radius: 13px 0px 0px 13px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  min-height: 600px;
+  text-align: center;
+}
+
+.register-credential-column {
+  background: #e8e8e8;
+  border-radius: 0px 13px 13px 0px;
+  padding-top: 5%;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .register-component {
+    margin-left: 7.5%;
+    margin-right: 4%;
+  }
+
+  .register-illustration-column {
+    background-color: var(--primary-color-dark-green);
+    color: white;
+    border-radius: 13px 13px 0px 0px;
+    min-height: auto;
+    padding-top: 10;
+    padding-bottom: 10px;
+  }
+
+  .register-credential-column {
+    background: #e8e8e8;
+    border-radius: 0px 0px 13px 13px;
+    padding: 20px;
+  }
+}

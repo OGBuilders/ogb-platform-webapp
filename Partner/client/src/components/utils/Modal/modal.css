@@ -1,0 +1,104 @@
+.modal {
+  align-items: center;
+}
+
+.login {
+  align-items: center;
+}
+
+.modal-card {
+  border-radius: 5px;
+  width: max-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.modal-card-head {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+  color: #0d0d0d;
+  background-color: white;
+}
+
+.customModal {
+  border-radius: 5px;
+  padding: 10px;
+  bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 100vh;
+}
+
+.language-modalheading {
+  margin-top: 8px;
+}
+
+.language-button {
+  margin-top: 8px;
+  max-width: 90px;
+  height: 30px !important;
+  margin-left: 10px;
+  padding: 5px;
+  font-weight: 700;
+}
+.cookie-box {
+  position: fixed;
+  font-size: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem 2rem;
+  background: #fff;
+
+  display: flex;
+  flex-direction: row;
+  z-index: 100;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cookie-box--hide {
+  opacity: 0;
+  bottom: -100%;
+}
+
+.cookie-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35%;
+  margin-right: auto;
+}
+
+.close-icon {
+  right: 0;
+  bottom: 0;
+  /* margin-top: 10px; */
+  cursor: pointer;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+@media screen and (max-width: 480px) {
+  .cookie-content {
+    margin-left: auto;
+
+    font-size: 16px;
+    display: inline;
+  }
+
+  .close-icon {
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: -25px;
+  }
+
+  .cookie-box {
+    padding: 0.5rem 1rem;
+  }
+}

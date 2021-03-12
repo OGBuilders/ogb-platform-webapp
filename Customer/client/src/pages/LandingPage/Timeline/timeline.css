@@ -1,0 +1,128 @@
+.landing-timeline {
+  padding-top: 4rem;
+  /* padding-bottom: 6rem; */
+}
+
+.timeline-header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  color: #0d0d0d;
+  margin-bottom: 3rem;
+}
+
+.custom-marker {
+  background-color: #1a954f !important;
+  top: 0;
+  height: 25px !important;
+  width: 25px !important;
+}
+
+.timeline.is-centered .timeline-item.is-primary::before {
+  background-color: #1a954f !important;
+}
+
+.heading-timeline {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  /* identical to box height, or 60px */
+
+  color: #20b560;
+}
+
+.picture {
+  height: auto;
+  width: auto;
+}
+
+.button-timeline {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  background: #20b560;
+  border-radius: 50px;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  color: #ffffff;
+  border-width: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-timeline:hover {
+  color: white;
+}
+
+.timeline-info {
+  font-size: 20px;
+  line-height: 150%;
+  color: #0d0d0d;
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 10px !important;
+  text-align: justify;
+}
+
+.timeline-details {
+  display: flex;
+  flex-direction: row;
+  margin-top: -15px;
+}
+
+.timeline-steps {
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.timeline-picture {
+  margin-right: 10px;
+}
+
+.short {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .timeline-details {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heading-timeline {
+    font-size: 22px;
+  }
+
+  .timeline-picture {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .timeline-content {
+    width: 100%;
+    padding-left: 5px !important;
+    padding-right: 5px !important ;
+  }
+
+  .timeline-info {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .timeline-steps {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .reverse-column {
+    flex-direction: column-reverse !important;
+  }
+}

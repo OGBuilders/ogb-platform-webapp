@@ -1,0 +1,52 @@
+.modal {
+  align-items: center;
+}
+
+.login {
+  align-items: center;
+}
+
+.modal-card {
+  border-radius: 5px;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.modal-card-head {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+  color: #0d0d0d;
+  background-color: white;
+}
+
+.success-msg {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.success-icon {
+  height: 100px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .modal-card {
+    width: 90%;
+  }
+
+  .success-msg {
+    font-size: 18px;
+  }
+
+  .success-icon {
+    height: 80px;
+    width: 80px;
+  }
+}

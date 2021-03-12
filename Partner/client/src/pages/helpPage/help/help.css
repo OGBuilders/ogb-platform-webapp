@@ -1,0 +1,80 @@
+.help-div .main-header {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  color: var(--primary-color-black);
+}
+
+.help-div .helpquery {
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.help-div {
+  margin-bottom: 100px;
+}
+
+.query-options {
+  padding: 24px;
+  margin-top: 5px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.query-main {
+  display: flex;
+}
+
+.faq-ans {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  margin-top: 10px;
+
+  color: var(--primary-color-black);
+  padding-right: 10%;
+}
+
+.query-expand-button {
+  margin-left: auto;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.query-heading {
+  font-weight: 550;
+  font-size: 28px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+  text-align: center;
+  color: var(--primary-color-black);
+}
+
+@media screen and (max-width: 480px) {
+  .help-div .helpquery {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .query-heading {
+    font-size: 18px;
+    padding-right: 5px;
+  }
+
+  .query-options {
+    padding: 10px;
+  }
+  .faq-ans {
+    font-size: 12px;
+  }
+  .query-expand-button {
+    height: 20px;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0px;
+  }
+}

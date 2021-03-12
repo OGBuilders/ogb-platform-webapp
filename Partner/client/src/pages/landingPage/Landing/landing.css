@@ -1,0 +1,35 @@
+.landing {
+  margin-left: 130px;
+  margin-top: 60px;
+}
+
+.landing-column {
+  margin-bottom: 60px;
+}
+
+.landing-heading {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.construction-img {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.slant {
+  font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+  .landing {
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .landing-heading {
+    font-size: 30px;
+  }
+}

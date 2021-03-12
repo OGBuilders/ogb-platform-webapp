@@ -1,0 +1,46 @@
+.confirm {
+  padding-left: 72px;
+  padding-right: 72px;
+  margin-bottom: 100px;
+  min-height: 60vh;
+}
+
+.confirm-column {
+  text-align: center;
+}
+
+.confirm-heading {
+  font-weight: 550;
+  font-size: 24px;
+  line-height: 150%;
+  margin-bottom: 12px;
+  color: var(--primary-color-black);
+}
+
+.confirm-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--primary-color-black);
+}
+
+.main-header {
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 150%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: var(--primary-color-black);
+}
+
+@media screen and (max-width: 480px) {
+  .confirm {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-header {
+    font-size: 28px;
+  }
+}

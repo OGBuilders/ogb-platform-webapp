@@ -1,0 +1,108 @@
+.nav-custom {
+  height: 88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: #ffffff;
+  min-width: 100vw;
+}
+
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-brand {
+  align-items: center;
+}
+
+.navbar-brand img {
+  /* margin-top: 15px; */
+  margin-left: 80px;
+}
+
+.navbar-menu {
+  font-weight: 1000;
+  font-size: 16px;
+  line-height: 150%;
+  align-items: center;
+  letter-spacing: 0.2px;
+}
+
+.navbar .navbar-item {
+  padding: 0;
+  margin-left: 60px;
+  cursor: pointer;
+  color: #0d0d0d;
+  /* padding-bottom: 10px; */
+}
+
+.navbar-menu .navbar-start {
+  padding: 0px;
+  width: 222px;
+  height: 24px;
+  margin-left: 10%;
+}
+
+.navbar-start .navbar-item {
+  padding-bottom: 8px;
+}
+
+.login-input {
+  width: 100%;
+}
+
+.buttons .button-custom {
+  background: #20b560;
+  color: white;
+  border-radius: 50px;
+  width: 154px;
+  height: 38px;
+  margin-right: 140px;
+}
+
+.button-modal {
+  background: #20b560;
+  color: white;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.button-modal:hover {
+  color: white;
+}
+
+.button[disabled] {
+  background: #20b560;
+}
+
+.control-button {
+  margin-top: 15px;
+}
+
+.navbar-burger:hover {
+  background-color: rgba(255, 255, 255);
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-brand {
+    margin-left: 10px;
+  }
+  .navbar-menu .navbar-start {
+    height: auto;
+  }
+
+  .navbar-menu .navbar-end button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar .navbar-item {
+    margin-left: 0;
+  }
+
+  .button-custom {
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+}

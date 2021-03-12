@@ -1,0 +1,29 @@
+.custom-navbar-button {
+  border: 1px solid var(--primary-color-dark-green);
+  border-radius: 5px !important;
+  width: 96px !important;
+  height: 36px;
+  font-size: 16px;
+  color: var(--primary-color-dark-green);
+  background: none;
+  cursor: pointer;
+
+  background: linear-gradient(
+    to right,
+    var(--primary-color-dark-green) 50%,
+    white 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.3s ease-out;
+  margin-left: 10px;
+}
+
+.custom-navbar-button:hover {
+  background-position: left bottom;
+  color: white;
+}
+
+.custom-navbar-button:focus {
+  outline: none;
+}

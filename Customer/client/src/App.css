@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+  font-style: normal;
+}
+
+.active {
+  border-bottom: 2px solid #20b560;
+  background-color: none;
+}
+
+a {
+  color: black;
+}
+
+.greenCircleSmall {
+  position: relative;
+  float: left;
+  width: 80px;
+  height: 80px;
+  border-radius: 0 85px 85px 0;
+  margin-left: -50px;
+  background: #1a954f;
+  margin-top: -40px;
+}
+
+.greenFooterCicle {
+  position: absolute;
+  float: right;
+  bottom: 0;
+  right: 0px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px 0 0 0;
+
+  margin-left: auto;
+  background: #1a954f;
+}
+
+.modal {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+  .active {
+    margin-left: 0;
+  }
+
+  .greenFooterCicle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px 0 0 0;
+  }
+}

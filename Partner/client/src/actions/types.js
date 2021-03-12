@@ -1,0 +1,4 @@
+export const GET_PROJECTS = "GET_PROJECTS";
+export const PROJECT_LOADING = "PROJECT_LOADING";
+export const SET_PROJECTID = "SET_PROJECTID";
+export const SET_LANGUAGE="SET_LANGUAGE"
